@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LLM Pipeline Job Submission</title>
+</head>
+<body>
+    <h1>LLM Pipeline Job Submission</h1>
+    
+    <form method="post" action="/submit-job">
+        <label for="pipelineCode">LLM Pipeline Code:</label>
+        <textarea name="pipelineCode" id="pipelineCode" rows="10" cols="50"></textarea>
+
+        <label for="inputs">List of Inputs (one per line):</label>
+        <textarea name="inputs" id="inputs" rows="5" cols="50"></textarea>
+
+        <label for="metrics">List of Metrics (one per line):</label>
+        <textarea name="metrics" id="metrics" rows="5" cols="50"></textarea>
+
+        <button type="submit">Submit Job</button>
+    </form>
+</body>
+</html>

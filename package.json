@@ -1,0 +1,20 @@
+{
+  "name": "honeyhivebackend",
+  "version": "1.0.0",
+  "description": "HoneyHive backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-worker": "npx bull -q llm-pipeline-jobs"
+  },
+  "author": "Abhinav Girish",
+  "license": "ISC",
+  "dependencies": {
+    "bull": "^4.11.4",
+    "express": "^4.18.2",
+    "twilio": "^4.19.0"
+  },
+  "devDependencies": {
+    "husky": "^4.3.8"
+  }
+}
